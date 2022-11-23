@@ -5,9 +5,14 @@ import "./Navigation.scss";
 
 const Navigation = () => {
     return (
-        <div className="Navigation">
-            <NavLink to="/">Smiles 4 Ever</NavLink>
-            <NavLink to="/about">About</NavLink>
+        <div className="navigation">
+            <div className="navigation__logo">
+                <NavLink to="/">Smiles 4 Ever</NavLink>
+            </div>
+            <div className="navigation__links">
+                <NavLink to="/">Home</NavLink>
+                <NavLink to="/contact">Contact</NavLink>
+            </div>
         </div>
     );
 };

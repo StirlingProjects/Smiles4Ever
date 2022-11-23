@@ -1,0 +1,12 @@
+@use "../../assets/sass/mixins.scss" as *;
+@use "../../assets/sass/variables.scss" as *;
+
+.footer {
+    width: 100%;
+    height: 5vh;
+
+    position: absolute;
+    bottom: 0;
+
+    border: 1px solid black;
+}

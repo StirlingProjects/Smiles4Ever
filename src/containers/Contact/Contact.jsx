@@ -1,6 +1,6 @@
 import React from "react";
 
-import "./About.scss";
+import "./Contact.scss";
 
 import Navigation from "../../components/Navigation/Navigation";
 import Footer from "../../components/Footer/Footer";
@@ -9,7 +9,7 @@ const About = () => {
     return (
         <div>
             <Navigation />
-            About
+            Contact and Google Maps
             <Footer />
         </div>
     );
