@@ -16,10 +16,19 @@
         width: 15%;
     }
 
-    &__links {
+    &__links-large {
         width: 85%;
-        
+
         display: flex;
         justify-content: space-evenly;
+    }
+
+    &__links-mobile {
+        display: none;
+    }
+
+    a {
+        text-decoration: none;
+        color: black;
     }
 }
